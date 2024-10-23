@@ -30,3 +30,48 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+form#search-form{
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px !important;
+}
+
+form#search-form > input,
+form#search-form > button{
+  border: 1px solid #242424;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  border-radius: 7px;
+}
+
+form#search-form > button{
+  background-color:cornflowerblue;
+  color: white;
+  padding: 7px 12px;
+  border: none !important;
+}
+
+form#search-form > button:hover{
+  background-color:rgb(155, 183, 235);
+}
+
+.info-data > .details-list > .image-detail{
+  width: 25%;
+  text-align: center;
+}
+
+.loader{
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  font-size: 1.4rem;
+  color: cornflowerblue;
+}
+
+.hidden{
+  display: none;
+}
